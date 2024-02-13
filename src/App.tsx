@@ -3,11 +3,6 @@ import { EmailForm } from "./components/forms/EmailForm"
 import { AddressForm } from "./components/forms/AddressForm"
 import { TaxForm } from "./components/forms/TaxForm"
 import { BirthPlaceForm } from "./components/forms/BirthPlaceForm"
-import { SituationForm } from "./components/forms/SituationForm"
-import { JobForm } from "./components/forms/JobForm"
-import { RevenueForm } from "./components/forms/RevenueForm"
-import { PatrimoineForm } from "./components/forms/PatrimoineForm"
-import { VersementForm } from "./components/forms/VersementForm"
 
 import { useMultistepForm } from "./useMultistepForm"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,11 +14,6 @@ function App() {
     <AddressForm />,
     <TaxForm />,
     <BirthPlaceForm />,
-    <SituationForm />,
-    <JobForm />,
-    <RevenueForm />,
-    <PatrimoineForm />,
-    <VersementForm />,
   ])
   return (
     <div className="row">
